@@ -1,0 +1,574 @@
+body {
+    margin: 0 auto;
+
+}
+
+
+
+header {
+    background-color: #f6f2f2;
+    padding-top: 29px;
+    height: 688px;
+    width: 100%;
+}
+
+.menu {
+    display: block;
+    background-color: #000000;
+    width: 1249px;
+    height: 89px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu a {
+    display: inline-block;
+    line-height: 89px;
+    padding: 0 15px;
+    color: #e0e0e0;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.49px;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: #ff3f40;
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+header .container {
+    margin: auto;
+    padding-top: 102px;
+
+}
+
+header .container p {
+    width: 512px;
+    margin: 36px 0 58px 0;
+}
+
+h1 {
+    margin: 0;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.btn-danger {
+    width: 227px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #ff2d2d;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34.06px;
+    letter-spacing: 0.32px;
+}
+
+.btn-danger:hover {
+    width: 227px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #ff2d2d;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34.06px;
+    letter-spacing: 0.32px;
+}
+
+.vid {
+    float: right;
+    box-shadow: 0 0 20px #000000;
+}
+
+.offer {
+    padding-top: 114px;
+}
+
+.offer .row {
+    border-bottom: 2px solid #ececec;
+    padding-bottom: 108px;
+}
+
+h2 {
+    margin: 0;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+.col-sm-6 p {
+    margin-top: 50px;
+    margin-bottom: 58px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 515px;
+}
+
+.btn-outline-danger {
+    width: 227px;
+    height: 55px;
+    border-radius: 5px;
+    border: 2px solid #ff0000;
+    color: #ff2d2d;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34.06px;
+}
+
+.btn-outline-danger:hover {
+    width: 227px;
+    height: 55px;
+    border-radius: 5px;
+    border: 2px solid #ff0000;
+    color: #ff2d2d;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34.06px;
+}
+
+.icon {
+    height: 65px;
+}
+
+.titl {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.desc {
+    margin-top: 17px;
+    margin-bottom: 48px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.products {
+    padding-top: 106px;
+}
+
+.products h2 {
+    text-align: center
+}
+
+.products p {
+    margin-top: 34px;
+    width: 420px;
+    margin: 34px auto 29px;
+    text-align: center;
+}
+
+.products .line {
+    width: 130px;
+    height: 1px;
+    border-style: 1px solid #ff2d2d;
+    background-color: #ff2d2d;
+    margin: 0 auto 58px;
+}
+
+.selections ul {
+    text-align: center;
+    margin-bottom: 51px;
+}
+
+.selections ul li {
+    display: inline;
+    text-align: center;
+    margin: 0 27px 0;
+}
+
+.selections ul li a {
+    font-family: "Open Sans";
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.selections ul li a:focus {
+    font-family: "Open Sans";
+    color: #ff2d2d;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.selections ul li a:hover {
+    font-family: "Open Sans";
+    color: #ff2d2d;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.products .prod {
+    margin-bottom: 138px;
+}
+
+.products .prod div img {
+    margin-top: 15px;
+}
+
+.meet {
+    text-align: left;
+}
+
+.meet h2 {
+    text-align: left;
+}
+
+.meet p {
+    text-align: left;
+    margin: 40px 0 33px;
+}
+
+.meet .line {
+    width: 130px;
+    height: 1px;
+    border-style: 1px solid #ff2d2d;
+    background-color: #ff2d2d;
+    margin: 0 0 39px 0;
+}
+
+.aboutleader {
+    height: 244px;
+}
+
+.aboutleader .leadname {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.aboutleader p {
+    text-align: left;
+    margin: 35px 0 44px 0;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 630px;
+}
+
+.aboutleader ul {
+    padding: 0;
+}
+
+.aboutleader ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.aboutleader ul li a {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.aboutleader ul li a:focus {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.aboutleader ul li a:hover {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.team {
+    padding-bottom: 110px;
+}
+
+.team .col-sm-3 {
+    padding-right: 0;
+}
+
+.team .col-sm-3:hover .teamname {
+    display: block;
+}
+
+.team .col-sm-8 .teamname {
+    display: none;
+    margin-top: -25px;
+    background-color: #000000;
+    opacity: 0.5;
+    text-align: center;
+    height: 25px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.subscribe {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #f5f0dd;
+}
+
+.subscribe .toptext {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.subscribe .bottomtext {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 31px 0 62px;
+}
+
+.subscribe form {
+    text-align: center;
+}
+
+.subscribe form input {
+    display: inline-block;
+    max-width: 521px;
+    height: 79px;
+    margin: 0 22px;
+}
+
+.subscribe form input::placeholder {
+    padding-left: 36px;
+    color: #2c2c2c;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.subscribe form .btn-lg {
+    width: 214px;
+    height: 79px;
+    background-color: #ff2d2d;
+}
+
+.getintouch {
+    padding: 106px 0 110px;
+    overflow: hidden;
+}
+
+.getintouch .container {
+    padding: 0;
+}
+
+.getintouch p {
+    padding: 51px 0 54px;
+    margin: 0;
+    max-width: 720px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.getintouch .line {
+    width: 130px;
+    height: 1px;
+    border-style: 1px solid #ff2d2d;
+    background-color: #ff2d2d;
+    margin-bottom: 75px;
+}
+
+.getintouch input {
+    display: inline-block;
+    max-width: 339px;
+    height: 69px;
+    background-color: #e5e5e5;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: none;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0 48px;
+}
+
+.getintouch .formemail {
+    float: right;
+}
+
+.getintouch textarea {
+    margin: 46px 0 45px;
+    resize: none;
+    height: 249px;
+    padding: 35px 48px;
+    background-color: #e5e5e5;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: none;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.getintouch button {
+    width: 100%;
+    height: 72px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34.06px;
+    text-transform: uppercase;
+}
+
+.getintouch button:hover {
+    width: 100%;
+    height: 72px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34.06px;
+    text-transform: uppercase;
+}
+
+.contactinfo {
+    position: relative;
+    padding: 145px 0 95px 79px;
+    background-color: #2d2d2d;
+
+}
+
+.contactinfo::before {
+    position: absolute;
+    top: 0;
+    left: -21px;
+    content: "";
+    display: block;
+    background-color: #2d2d2d;
+    width: 21px;
+    bottom: 0;
+}
+
+.contactinfo::after {
+    position: absolute;
+    top: 0;
+    right: -5000px;
+    content: "";
+    display: block;
+    background-color: #2d2d2d;
+    width: 5000px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.contactinfo p {
+    padding: 0;
+    margin: 0 auto 27px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.contactinfo p:last-child {
+    margin: 0;
+}
+
+.contactinfo .contacttitle {
+    margin-bottom: 41px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34.06px;
+    text-transform: uppercase;
+}
+
+footer {
+    width: 100%;
+    background-color: #313030;
+    height: 111px;
+    line-height: 111px;
+}
+
+footer .container {
+    padding: 0;
+}
+
+footer p {
+    float: left;
+    margin: 0;
+    color: #b8b8b8;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 111px;
+}
+
+footer .social {
+    float: right;
+
+}
+
+footer .social a {
+    margin-left: 18px;
+}

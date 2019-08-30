@@ -1,472 +1,164 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SMART Agency</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- <link rel="stylesheet" href="/src/assets/css/style.css"> -->
+<link href="/assets/css/vendors.116ba6fe8378a6e22271.css" rel="stylesheet"><link href="/assets/css/app.116ba6fe8378a6e22271.css" rel="stylesheet"></head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="clearfix">
-                <div class="logo">Smart</div>
-                <div class="linesbutton">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+<header>
+    <nav class="navbar-dark navbar navbar-expand-sm fixed-top">
+        <a class="navbar-brand" href="#"><img src="assets/img/Logo.png" width="64" height="55"
+                                              alt=""></a>
+        <!-- <a class="" href="#"></a> -->
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active" id="portfolio">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item" id="about">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav mr-auto">
+                <li class="nav-item" id="blog">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item" id="getint">
+                    <a class="nav-link" href="#">Get in touch</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="wrapper-hex">
+    <ul id="categories" class="clr"></ul>
+
+</div>
+<section class="developer" id="dev-id">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-4 ">
+                <div class="outer">
+                    <img src="assets/img/photo.png" alt=" ">
                 </div>
             </div>
-            <h3><span>Smart</span> Agency Landing Page</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, fuga provident. Libero
-                magni quibusdam labore ad iste saepe hic, maxime qui ipsum tempore beatae, volu tomi
-                ptates doloremque rerum aspernatur dolorum at!
-            </p>
-            <div class="contact_form">
-                <p><span>Send</span> A Message</p>
-                <div class="form">
+            <div class="col-12 col-sm-8 ">
+                <div class="info-dev">
+                    <p class="name">
+                        Taras Panchyshyn
+                    </p>
+                    <p class="prof">Junior Front-End Developer</p>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                        porttitor, nibh
+                        at
+                        sagittis
+                        tristique, enim magna pretium augue, eget consectetur sem dui non urna.
+                        Integer gravida,
+                        diam
+                        congue molestie
+                        fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi
+                        egestas sit amet
+                        velit eget
+                        venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium
+                        augue, eget
+                        consectetur sem dui non
+                        urna</p>
+                    <div class="socials">
+                        <div class="facebook"><a href=""><span class="icon-facebook"></span></a>
+                        </div>
+                        <div class="twitter"><a href=""><span class="icon-twitter"></span></a></div>
+                        <div class="google"><a href=""><span class="icon-google"></span></a></div>
+                        <div class="pinterest2"><a href=""><span class="icon-pinterest2"></span></a>
+                        </div>
+                        <div class="linkedin2"><a href=""><span class="icon-linkedin2"></span></a>
+                        </div>
+                        <div class="dribbble"><a href=""><span class="icon-dribbble"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="getintouch" id="get-in-touch">
+    <div class="container">
+        <div class="row"><p class="getintouch_title">Get In Touch</p>
+            <p class="getintouch_desc">In order to get in touch use the contact form below:</p>
+            <div class="col-12 col-sm-8">
+
+                <form>
                     <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Your Name">
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="Your Message"></textarea>
+                        <input type="text" class="form-control" id="nameform"
+                               placeholder="Name (Required)" required>
                     </div>
-                    <input type="submit" value="Send Message &#8594;" class="btn btn-primary">
-                </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="emailform"
+                               placeholder="Email (Required)" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="subjform"
+                               placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+							<textarea type="text" class="form-control" id="msgform" rows="5"
+                                      placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
             </div>
+            <div class="col-12 col-sm-4">
+                <p><span>Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh.
+                    Fusce vitae aliquam tellus.
+                    Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi
+                    vitae.</p>
 
-        </div>
-    </header>
-
-    <div class="working_process">
-        <div class="container">
-            <h3><span>Working</span> Process</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, fuga provident. Libero
-                magni quibusdam labore ad iste saepe hic, maxime qui ipsum tempore beatae, volu tomi
-                ptates doloremque rerum aspernatur dolorum at!
-            </p>
-            <div class="row">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="blue_block">
-                        <div class="pic_wrap">
-                            <div class="pic"></div>
-                        </div>
-                        <p class="title">Koc Koi Tomi</p>
-                        <p class="desc">Lorem ipsum is dummy lorem very dumy</p>
-                    </div>
-                    <button type="button" class="btn btn-light">+ Know More</button>
-
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="purple_block">
-                        <div class="pic_wrap">
-                            <div class="pic"></div>
-                        </div>
-                        <p class="title">Koimona Set</p>
-                        <p class="desc">Lorem ipsum is dummy you lorem very dumyL is </p>
-                    </div>
-                    <button type="button" class="btn btn-light">+ Know More</button>
-
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="violet_block">
-                        <div class="pic_wrap">
-                            <div class="pic"></div>
-                        </div>
-                        <p class="title">Setting Koire</p>
-                        <p class="desc">Lorem ipsum is dummy lorem very yLorem ipsus </p>
-                    </div>
-                    <button type="button" class="btn btn-light">+ Know More</button>
-
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="red_block">
-                        <div class="pic_wrap">
-                            <div class="pic"></div>
-                        </div>
-                        <p class="title">Ko Image Lara</p>
-                        <p class="desc">Lorem ipsum is dummy ry dumyLorem ipsum is </p>
-                    </div>
-                    <button type="button" class="btn btn-light">+ Know More</button>
-
-                </div>
+                <a class="loc" href="https://goo.gl/maps/weKcK7t7yL8gWVbWA" target="_blank">Kyiv,
+                    Ukraine</a>
+                <a class="phon" href="tel:+380661234567">+38-(066)-123-45-67</a>
+                <a class="maill" href="mailto:example@gmail.com">example@gmail.com</a>
             </div>
         </div>
     </div>
+</section>
+<footer>
+    <p>© Copyright 2019 Taras Panchyshyn</p>
+</footer>
 
-    <div class="featured_work">
-        <div class="container">
-            <h3><span>Featured</span> Works</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, fuga provident. Libero
-                magni quibusdam labore ad iste saepe hic, maxime qui ipsum tempore beatae, volu tomi
-                ptates doloremque rerum aspernatur dolorum at!
-            </p>
-            <div class="row">
-                <div class="col">
-                    <img src="img/Rectangle_3.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/Rectangle_3.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/Rectangle_3.png" alt="">
-                </div>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Ooops...</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-            <div class="row">
-                <div class="col">
-                    <img src="img/Rectangle_3.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/Rectangle_3.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/Rectangle_3.png" alt="">
-                </div>
+            <div class="modal-body">
+                Blog doesn't exists atm... Will be in future (maybe 😁)
             </div>
-            <div class="row">
-                <div class="col">
-                    <img src="img/Rectangle_3.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/Rectangle_3.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/Rectangle_3.png" alt="">
-                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
-
-    <div class="services">
-        <div class="container">
-            <h3><span>Services</span> We Provide</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, fuga provident. Libero
-                magni quibusdam labore ad iste saepe hic, maxime qui ipsum tempore beatae, volu tomi
-                ptates doloremque rerum aspernatur dolorum at!
-            </p>
-            <div class="row">
-                <div class="atter col-12 col-md-2">
-                    <div class="list-group" id="myList" role="tablist">
-                        <a class="list-group-item list-group-item-action active" data-toggle="list" href="#inf"
-                            role="tab"><img src="img/ls6b.png" alt=""></a>
-                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#inff"
-                            role="tab"><img src="img/ls4b.png" alt=""></a>
-                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#infff"
-                            role="tab"><img src="img/ls3b.png" alt=""></a>
-                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#inffff"
-                            role="tab"><img src="img/ls6b.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="bester col-12 col-md-10">
-                    <div class="tab-content">
-                        <div class="tab-pane active" id="inf" role="tabpanel">
-                            <div class="pict">
-                                <img src="img/apple-watch-mockup.png" alt="">
-                            </div>
-                            <p class="tab-content-title">Modern App Design</p>
-                            <p class="tab-content-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio
-                                distinctio illum consequuntur delectus nulla illo aperiam itaque cumque.
-                                <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia vitae
-                                eveniet quam
-                                rem unde facilis. <br><br> vitae eveniet quam rem unde facilis.</p>
-                            <button type="button" class="btn btn-light">+ Know More</button>
-                        </div>
-                        <div class="tab-pane" id="inff" role="tabpanel">
-                            <div class="pict">
-                                <img src="img/apple-watch-mockup.png" alt="">
-                            </div>
-                            <p class="tab-content-title">Modern App Design 2</p>
-                            <p class="tab-content-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio
-                                distinctio illum consequuntur delectus nulla illo aperiam itaque cumque.
-                                <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia vitae
-                                eveniet quam
-                                rem unde facilis. <br><br> vitae eveniet quam rem unde facilis.</p>
-                            <button type="button" class="btn btn-light">+ Know More</button>
-                        </div>
-                        <div class="tab-pane" id="infff" role="tabpanel">
-                            <div class="pict">
-                                <img src="img/apple-watch-mockup.png" alt="">
-                            </div>
-                            <p class="tab-content-title">Modern App Design 3</p>
-                            <p class="tab-content-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio
-                                distinctio illum consequuntur delectus nulla illo aperiam itaque cumque.
-                                <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia vitae
-                                eveniet quam
-                                rem unde facilis. <br><br> vitae eveniet quam rem unde facilis.</p>
-                            <button type="button" class="btn btn-light">+ Know More</button>
-                        </div>
-                        <div class="tab-pane" id="inffff" role="tabpanel">
-                            <div class="pict">
-                                <img src="img/apple-watch-mockup.png" alt="">
-                            </div>
-                            <p class="tab-content-title">Modern App Design 4</p>
-                            <p class="tab-content-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio
-                                distinctio illum consequuntur delectus nulla illo aperiam itaque cumque.
-                                <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia vitae
-                                eveniet quam
-                                rem unde facilis. <br><br> vitae eveniet quam rem unde facilis.</p>
-                            <button type="button" class="btn btn-light">+ Know More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="team">
-        <div class="container">
-            <h3><span>Team</span> Chinen & Skills</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores fuga provident Libero.
-            </p>
-            <div class="row">
-                <div class="col-12 col-xl-4 order-xl-2">
-                    <div class="leader">
-                        <p class="des">UI/UX Design</p>
-                        <p class="lang">English</p>
-                        <p class="comm">Communication</p>
-                        <p class="lead_name">Al Rayhan</p>
-                        <p class="lead_job">UI/UX Designer</p>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-xl-4 order-xl-1">
-                    <div class="member-1">
-                        <div class="mem_info">
-                            <p class="mem_name">Bedi Manos</p>
-                            <p class="mem_job">UI/UX Parena</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-xl-4 order-xl-3">
-                    <div class="member-2">
-                        <div class="mem_info">
-                            <p class="mem_name">Ali Sayed</p>
-                            <p class="mem_job">UI/UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="clients">
-        <div class="container">
-            <h3><span>Clients</span> Said</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores fuga provident Libero.</p>
-            <div class="slick-sl">
-
-                <div class="slid">
-                    <div class="slid_info">
-                        <div class="photo_pic">
-                            <img src="img/free_red_panda_icon_100x100_by_supertuffpinkpuff.png" alt="">
-                        </div>
-                        <p>
-                            “This was my first time renting from car rental. The service rep help me find the best
-                            rental to
-                            suit my needs. I will
-                            definitely rent with this company again”
-                        </p>
-                        <div class="rating">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                        </div>
-                        <p class="slid_name"><span>Kita Say,</span> HK Director</p>
-                    </div>
-                </div>
-                <div class="slid">
-                    <div class="slid_info">
-                        <div class="photo_pic">
-                            <img src="img/free_red_panda_icon_100x100_by_supertuffpinkpuff.png" alt="">
-                        </div>
-                        <p>
-                            “This was my first time renting from car rental. The service rep help me find the best
-                            rental to
-                            suit my needs. I will
-                            definitely rent with this company again”
-                        </p>
-                        <div class="rating">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                        </div>
-                        <p class="slid_name"><span>Al Rayban,</span> UX Director</p>
-                    </div>
-                </div>
-                <div class="slid">
-                    <div class="slid_info">
-                        <div class="photo_pic">
-                            <img src="img/free_red_panda_icon_100x100_by_supertuffpinkpuff.png" alt="">
-                        </div>
-                        <p>
-                            “This was my first time renting from car rental. The service rep help me find the best
-                            rental to
-                            suit my needs. I will
-                            definitely rent with this company again”
-                        </p>
-                        <div class="rating">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                        </div>
-                        <p class="slid_name"><span>Kita Say,</span> HK Director</p>
-                    </div>
-                </div>
-                <div class="slid">
-                    <div class="slid_info">
-                        <div class="photo_pic">
-                            <img src="img/free_red_panda_icon_100x100_by_supertuffpinkpuff.png" alt="">
-                        </div>
-                        <p>
-                            “This was my first time renting from car rental. The service rep help me find the best
-                            rental to
-                            suit my needs. I will
-                            definitely rent with this company again”
-                        </p>
-                        <div class="rating">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                        </div>
-                        <p class="slid_name"><span>Al Rayban,</span> UX Director</p>
-                    </div>
-                </div>
-                <div class="slid">
-                    <div class="slid_info">
-                        <div class="photo_pic">
-                            <img src="img/free_red_panda_icon_100x100_by_supertuffpinkpuff.png" alt="">
-                        </div>
-                        <p>
-                            “This was my first time renting from car rental. The service rep help me find the best
-                            rental to
-                            suit my needs. I will
-                            definitely rent with this company again”
-                        </p>
-                        <div class="rating">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                        </div>
-                        <p class="slid_name"><span>Kita Say,</span> HK Director</p>
-                    </div>
-                </div>
-                <div class="slid">
-                    <div class="slid_info">
-                        <div class="photo_pic">
-                            <img src="img/free_red_panda_icon_100x100_by_supertuffpinkpuff.png" alt="">
-                        </div>
-                        <p>
-                            “This was my first time renting from car rental. The service rep help me find the best
-                            rental to
-                            suit my needs. I will
-                            definitely rent with this company again”
-                        </p>
-                        <div class="rating">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                        </div>
-                        <p class="slid_name"><span>Al Rayban,</span> UX Director</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="partner">
-        <div class="container">
-            <div class="partners">
-                <img src="img/partner4.png" alt="">
-                <img src="img/partner2.png" alt="">
-                <img src="img/partner1.png" alt="">
-                <img src="img/partner4.png" alt="">
-                <img src="img/partner2.png" alt="">
-                <img src="img/partner1.png" alt="">
-
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <div class="container">
-            <button type="button" class="btn btn-light">Contact Us</button>
-            <div class="social_links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-behance"></i></a>
-                <p>© 2015 - 2016 Deviserweb Ltd.</p>
-            </div>
-        </div>
-
-    </footer>
-
-
-    <script src="https://kit.fontawesome.com/16b14eafb4.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
-
-    <script src="js/slick.js">
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.slick-sl').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                responsive: [{
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                    // You can unslick at a given breakpoint now by adding:
-                    // settings: "unslick"
-                    // instead of a settings object
-                ]
-            });
-        });
-    </script>
-</body>
+</div>
+<script type="text/javascript" src="/assets/js/vendors.116ba6fe8378a6e22271.js"></script><script type="text/javascript" src="/assets/js/app.116ba6fe8378a6e22271.js"></script></body>
 
 </html>
