@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Smart Agency",
+    "desc": "Adaptive, Bootstrap",
+    "link": "/smagency/index.html",
+    "pic": "/smagency/sshot.png"
+  },
+  {
+    "name": "Test Site",
+    "desc": "Bootstrap, First try...",
+    "link": "/agencylp/index.html",
+    "pic": "/agencylp/pic.png"
+  },
+  {
+    "name": "-blank-",
+    "desc": "Some text description",
+    "link": "https://google.com",
+    "pic": "https://st2.depositphotos.com/5943796/11382/v/950/depositphotos_113822398-stock-illustration-initial-letter-kh-silver-gold.jpg"
+  },
+  {
+    "name": "-blank-",
+    "desc": "Some text description",
+    "link": "https://google.com",
+    "pic": "https://st2.depositphotos.com/5943796/11382/v/950/depositphotos_113822398-stock-illustration-initial-letter-kh-silver-gold.jpg"
+  },
+  {
+    "name": "-blank-",
+    "desc": "Some text description",
+    "link": "https://google.com",
+    "pic": "https://st2.depositphotos.com/5943796/11382/v/950/depositphotos_113822398-stock-illustration-initial-letter-kh-silver-gold.jpg"
+  },
+  {
+    "name": "-blank-",
+    "desc": "Some text description",
+    "link": "https://google.com",
+    "pic": "https://st2.depositphotos.com/5943796/11382/v/950/depositphotos_113822398-stock-illustration-initial-letter-kh-silver-gold.jpg"
+  },
+  {
+    "name": "-blank-",
+    "desc": "Some text description",
+    "link": "https://google.com",
+    "pic": "https://st2.depositphotos.com/5943796/11382/v/950/depositphotos_113822398-stock-illustration-initial-letter-kh-silver-gold.jpg"
+  }
+]
